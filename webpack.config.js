@@ -28,12 +28,9 @@ module.exports = {
   devServer: {
     static: "./dist",
   },
-  //   optimization: {
-  //     runtimeChunk: "single",
-  //   },
   plugins: [
     new HtmlWebpackPlugin({
-      title: "Dropdown",
+      title: "default",
       template: "src/index.html",
     }),
   ],
